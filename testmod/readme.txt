@@ -1,0 +1,68 @@
+todo: learn deepcopy
+    learn to make new thing
+
+====================================
+IMPORTANT 2.0 CHANGES: https://github.com/tburrows13/factorio-2.0-mod-porting-guide#Notable-changes
+If you reach errors in prototype-stage lua execution, it is probably because something has changed or been removed in base/core.
+If you reach "Error while loading ..." errors, it is probably because something has changed in the prototype-stage API specification.
+If you encounter errors while playing ingame, it is probably because something has changed in the runtime-stage API specification.
+
+
+====================================================
+
+# locale.cfg
+# author: marn20
+# (no spaces around '=' sign, want dan krijg je te 
+veel spaties in de naam)
+
+use m2_ prefix for names etc. to avoid conflicts with other mods 
+
+
+ctrl+shift+F ingame shows prototype info
+
+Folder Name Format {mod-name}_{version} (Example: "newMod_0.0.1")
+
+Files:
+    info.json
+    thumbnail.png 144px x 144px
+    changelog.txt
+    settings.lua
+    data.lua
+    control.lua
+
+sub folders:
+    Locale
+    Scenarios
+    Campaigns
+    Tutorials
+    Migrations 
+
+info:
+    https://wiki.factorio.com/Tutorial:Mod_Structure
+
+    https://lua-api.factorio.com/latest/Data-Lifecycle.html
+
+    offline
+    ../Steam/steamapps/common/Factorio/doc-html/Data-Lifecycle.html
+
+
+    image sources used:
+
+    https://www.online-convert.com/result#j=b883b2c4-8d10-494e-b01e-09899b04cc6e
+    https://perchance.org/ai-icon-generator
+
+    factorio mod dev discord:
+    --
+    Programming Tools
+    Making mods can be done in any text editor, however VSCode is recommended as it has the most tooling available.
+
+    Factorio Modding Toolkit (FMTK): Available as a VSCode extension or NPM package, this has the most common and useful features for modding. Such features include a fully functioning debugger/profiler, info.json validation, language support for locale/changelog files, auto-generated type definitions for LuaLS integration, quick packaging/publishing, and many more smaller additions. Using FMTK is highly recommended by many modders.
+    VSCode Setup Guide: https://www.youtube.com/watch?v=oNfMNFxy2X4
+
+    https://github.com/LuaLS/lua-language-server: Also available as both a VSCode extention or NPM package, this is a language server for Lua. It helps prevent easily made mistakes with a static type system, diagnostics/warnings, and syntax checking. It also allows for code autocomplete suggestions, formatting, spell checking, and more. FMTK works hand in hand with LuaLS, as the modding experience is significantly improved with these two extensions.
+    https://luals.github.io/wiki/annotations/: Documentation for interacting with the type system.
+
+https://github.com/Hornwitser/factorio_tools: A collection of command-line tools for debugging and inspecting Factorio related things, most notably analyzing desync reports.
+     (bewerkt)
+    --
+    https://github.com/dusher111/Factorio_Modding_Tutorial/tree/main/test-mod_0.0.1
