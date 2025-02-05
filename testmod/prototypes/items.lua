@@ -8,7 +8,8 @@ local m20_campfire = {
     icon_size = 64,
     subgroup = "production-machine",
     order = "b[steel-furnace]-a[campfire-furnace]",
-    stack_size = 50
+    stack_size = 50,
+    place_result = "campfire-furnace"
 }
 
 return{m20_campfire}
