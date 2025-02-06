@@ -1,5 +1,3 @@
-todo: learn deepcopy
-    learn to make new thing
 
 ====================================
 IMPORTANT 2.0 CHANGES: https://github.com/tburrows13/factorio-2.0-mod-porting-guide#Notable-changes
