@@ -1,3 +1,7 @@
+-- recipes.lua
+-- Author: marn20
+
+-- from wiki, to be removed
 local fireArmorRecipe = {
     type = "recipe",
     name = "fire-armor",
@@ -32,7 +36,7 @@ local m20_campfireRecipe = {
     type = "recipe",
     name = "campfire-furnace",
     enabled = true,
-    energy_required = 8,
+    energy_required = 7,
     ingredients = {
         {type = "item", name = "wood", amount = 10},
         {type = "item", name = "stone", amount = 10},

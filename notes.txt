@@ -39,6 +39,7 @@ sub folders:
 
 info:
     https://wiki.factorio.com/Tutorial:Mod_Structure
+    https://wiki.factorio.com/Tutorial:Modding_tutorial/Gangsir#Creation_of_the_directory_structure
 
     https://lua-api.factorio.com/latest/Data-Lifecycle.html
 

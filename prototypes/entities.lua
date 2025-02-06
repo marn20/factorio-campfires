@@ -15,9 +15,9 @@ m20_campfire.crafting_speed = 0.75  -- Slower than a steel furnace
 m20_campfire.energy_usage = "90kW"  -- Adjust energy usage
 m20_campfire.minable = {mining_time = 1, result = "campfire-furnace"}
 
--- Define the collision and selection boxes for placement
-m20_campfire.collision_box = {{-0.5, -0.5}, {0.5, 0.5}} -- Standard collision box size for furnaces
-m20_campfire.selection_box = {{-0.5, -0.5}, {0.5, 0.5}} -- Define the area you can select
+-- Define the collision and selection boxes for placement, niet aanzitten als niet nodig is
+-- m20_campfire.collision_box = {{-0.5, -0.5}, {1.5, 1.5}} -- Standard collision box size for furnaces
+-- m20_campfire.selection_box = {{-0.5, -0.5}, {0.5, 1.0}} -- Define the area you can select // {-links ,+rechts ,-boven +onder}
 
 -- Ensure it's placeable in the world
 m20_campfire.flags = {"placeable-neutral", "player-creation"}  -- "player-creation" is important for player placement
@@ -28,7 +28,7 @@ m20_campfire.type = "furnace"
 -- Make sure you can place it by using the item
 m20_campfire.placeable_by = {item = "campfire-furnace", count = 1}
 
--- Add a working sound and animation properties (optional, but makes it functional)
+-- Add a working sound and animation properties (optional)
 m20_campfire.animations = data.raw["furnace"]["steel-furnace"].animations
 
 
