@@ -1,13 +1,23 @@
 todo: 
-    - fix naming in locale unknown key: "entity-name.campfire-furnace"
+    - fix naming in locale unknown key: "entity-name.campfire-furnace" -- game recognizes it but doesnt work correct ofzo
     - fix naming in locale unknown key: "entity-name.fire-armor"
-    - fix texture visibility of fast-armor
+
+    
     
     - add a small radius to campfire, that heals you if you come close
     - add nuclear campfire that only accepts nuclear-fuel
     - add 2 radiuses to nuclear campfire:
         1. is bigger than the normal one and heals you
         2. is the inner circle that does damage
+
+
+
+ooit: 
+    - make own armor texture for fastArmor
+
+
+
+
 
 ideetjes:
     custom recipe
