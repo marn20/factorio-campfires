@@ -1,15 +1,3 @@
-todo: 
-    - fix naming in locale unknown key: "entity-name.campfire-furnace"
-    - fix naming in locale unknown key: "entity-name.fire-armor"
-    - fix texture visibility of fast-armor
-    
-    - add a small radius to campfire, that heals you if you come close
-    - add nuclear campfire that only accepts nuclear-fuel
-    - add 2 radiuses to nuclear campfire:
-        1. is bigger than the normal one and heals you
-        2. is the inner circle that does damage
-
-
 
 ====================================
 IMPORTANT 2.0 CHANGES: https://github.com/tburrows13/factorio-2.0-mod-porting-guide#Notable-changes
@@ -17,9 +5,7 @@ If you reach errors in prototype-stage lua execution, it is probably because som
 If you reach "Error while loading ..." errors, it is probably because something has changed in the prototype-stage API specification.
 If you encounter errors while playing ingame, it is probably because something has changed in the runtime-stage API specification.
 
-
 ====================================================
-
 # locale.cfg
 # author: marn20
 # (no spaces around '=' sign, want dan krijg je te 
@@ -85,5 +71,14 @@ https://github.com/Hornwitser/factorio_tools: A collection of command-line tools
     source: https://dev.to/praiseimmanuel/step-by-step-guide-to-creating-github-repositories-and-adding-files-using-the-vscode-terminal-2ei
     https://www.youtube.com/watch?v=i_23KUAEtUM
     https://www.youtube.com/watch?v=5g37NElQnCQ
+
+
+
+  
+  
+  
+  sources:
+  https://wiki.factorio.com/Tutorial:Mod_changelog_format
+  https://wiki.factorio.com/Tutorial:Modding_tutorial/Gangsir#Before_beginning_to_mod
     
 

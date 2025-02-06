@@ -1,15 +1,17 @@
 ---------------------------------------------------------------------------------------------------
-Version: 0.0.1
-Date: 03-02-2025
-  weer gaan modden:
-    - following wiki tutorial
+Version: 0.0.2
+Date: 06-02-2025
+  Internal:
+    - folder structure changes
+    - fixed some bugs
 
 Date: 04-02-2025
   Added:
     - Fast Armor
-  
-  
-  
-  sources:
-  https://wiki.factorio.com/Tutorial:Mod_changelog_format
-  https://wiki.factorio.com/Tutorial:Modding_tutorial/Gangsir#Before_beginning_to_mod
+
+Version: 0.0.1
+Date: 03-02-2025
+  picking up modding again:
+    - following wiki tutorial
+
+
