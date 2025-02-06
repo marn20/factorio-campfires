@@ -23,7 +23,7 @@ fastArmor.icons = {
   {
     icon = fastArmor.icon,
     icon_size = fastArmor.icon_size,
-    tint = {r=0, g=1, b=14, a=0.5}
+    tint = {r=0, g=0, b=200, a=0.3}
   },
 }
 
