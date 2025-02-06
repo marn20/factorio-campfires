@@ -9,4 +9,7 @@ todo:
         1. is bigger than the normal one and heals you
         2. is the inner circle that does damage
 
-
+ideetjes:
+    custom recipe
+    custom fluid
+    
