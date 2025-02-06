@@ -11,18 +11,6 @@ todo:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 ====================================
 IMPORTANT 2.0 CHANGES: https://github.com/tburrows13/factorio-2.0-mod-porting-guide#Notable-changes
 If you reach errors in prototype-stage lua execution, it is probably because something has changed or been removed in base/core.
@@ -47,7 +35,7 @@ Folder Name Format {mod-name}_{version} (Example: "newMod_0.0.1")
 Files:
     info.json
     thumbnail.png 144px x 144px
-    changelog.txt
+    changelog.md
     settings.lua
     data.lua
     control.lua
@@ -55,7 +43,6 @@ Files:
 sub folders:
     Locale
     Scenarios
-    Campaigns
     Tutorials
     Migrations 
 
@@ -73,6 +60,8 @@ info:
 
     https://www.online-convert.com/result#j=b883b2c4-8d10-494e-b01e-09899b04cc6e
     https://perchance.org/ai-icon-generator
+    https://www.piskelapp.com/p/create/sprite 
+
 
     factorio mod dev discord:
     --
