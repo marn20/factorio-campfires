@@ -2,8 +2,8 @@
 	"name": "testmod",
 	"version": "0.0.2",
 	"factorio_version": "2.0",
-	"title": "prettyname, testmod, fast-armor",
+	"title": "Campfires",
 	"author": "marn20",
-	"description": "This mod adds in fire armor that leaves behind damaging fire as you walk around, and adds fast armor",
+	"description": "Add some nice and warm campfires",
 	"dependencies": ["base >= 2.0"]
 }
