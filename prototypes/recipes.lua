@@ -47,6 +47,21 @@ local m20_campfireRecipe = {
     }
 }
 
+local m20_nuclearCampfireRecipe = {
+    type = "recipe",
+    name = "nuclear-campfire",
+    enabled = true,
+    energy_required = 9,
+    ingredients = {
+        {type = "item", name = "wood", amount = 2},
+        {type = "item", name = "steel-plate", amount = 50},
+        {type = "item", name = "uranium-238", amount = 1},
+    },
+    results = {
+        {type = "item", name = "nuclear-campfire", amount = 1}
+    }
+}
+
 -- maak customRecipe dat een item alleen kan smelten in bepaalde machines, bijvoorbeeld atoombom smelten naar uranium en staal op nuclear kampvuur
 -- local m20_customRecipe = {
 --     type = "recipe",
@@ -56,4 +71,4 @@ local m20_campfireRecipe = {
 --     ingredients = 
 -- }
 
-return {fireArmorRecipe, fastArmorRecipe, m20_campfireRecipe}
+return {fireArmorRecipe, fastArmorRecipe, m20_campfireRecipe, m20_nuclearCampfireRecipe}

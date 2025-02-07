@@ -15,6 +15,18 @@ local m20_campfire = {
     --localised_name = "item-name.campfire-furnace" -- force locale usage
 }
 
-return{m20_campfire}
+local m20_nuclearCampfire = {
+    type = "item",
+    name = "nuclear-campfire",
+    icon = "__testmod__/graphics/icons/nuclear-campfire-64.png",
+    icon_size = 64,
+    subgroup = "smelting-machine",
+    -- order = ???? - hij moet ofwel direct rechts van de gewone, ofwel na de elektrische
+    stack_size = 10,
+    place_result = "nuclear-campfire"
+
+}
+
+return{m20_campfire, m20_nuclearCampfire}
 
 
