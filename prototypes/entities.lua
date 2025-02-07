@@ -2,33 +2,45 @@
 --Author: marn20
 
 local m20_campfire = table.deepcopy(data.raw["furnace"]["steel-furnace"])
+local m20_nuclearCampfire = table.deepcopy(data.raw["furnace"]["steel-furnace"]) --either this or nuclear reactor
 
 -- Change the internal name
 m20_campfire.name = "campfire-furnace"
+m20_nuclearCampfire.name = "nuclear-campfire"
 
 -- Change the icon to the new image
 m20_campfire.icon = "__testmod__/graphics/icons/campfire-64.png"
-m20_campfire.icon_size = 64  -- Make sure the size matches your actual image
+m20_campfire.icon_size = 64
+m20_nuclearCampfire.icon = "__testmod__/graphics/icons/nuclear-campfire-64.png"
+m20_nuclearCampfire.icon_size = 64
+-- give a green tint to the icon as a test
 
 -- (Optional) Change the crafting speed or other properties
 m20_campfire.crafting_speed = 0.75  -- Slower than a steel furnace
 m20_campfire.energy_usage = "90kW"  -- Adjust energy usage
 m20_campfire.minable = {mining_time = 1, result = "campfire-furnace"}
+m20_nuclearCampfire.crafting_speed = 1.25
+m20_nuclearCampfire.energy_usage = "80kW"  -- play a little with the numbers later
+m20_nuclearCampfire.minable = {mining_time = 1, result = "nuclear-campfire"}
 
 -- Ensure it's placeable in the world
 m20_campfire.flags = {"placeable-neutral", "player-creation"}  -- "player-creation" is important for player placement
+m20_nuclearCampfire.flags = {"placeable-neutral", "player-creation"}
 
 -- Define the entity as a furnace
 m20_campfire.type = "furnace"
+m20_nuclearCampfire.type = "furnace"
 
 -- Make sure you can place it by using the item
 m20_campfire.placeable_by = {item = "campfire-furnace", count = 1}
+m20_nuclearCampfire.placeable_by = {item = "nuclear-campfire", count = 1}
 
 -- Add a working sound and animation properties (optional)
 m20_campfire.animations = data.raw["furnace"]["steel-furnace"].animations
+m20_nuclearCampfire.animations = data.raw["furnace"]["steel-furnace"].animations
 
 
-return {m20_campfire}
+return {m20_campfire, m20_nuclearCampfire}
 
 
 
